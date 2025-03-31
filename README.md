@@ -1,4 +1,4 @@
-# Network Analysis
+# "Solidarity" Network Analysis
 
 ## Methods
 
