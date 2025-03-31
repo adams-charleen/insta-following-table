@@ -107,7 +107,7 @@ The top 10 most followed accounts (in-degree centrality) included "harvardunderg
 | nouraerakat                     | 0.000218  |
 
 
-Community detection identified 16 communities, with sizes ranging from 152 to 622 accounts, as shown in the "Distribution of Community Sizes" histogram. The largest communities (350–450 accounts) were analyzed for composition: Community 4 (432 accounts) had 7 University, 7 Regional, 218 Thematic, and 200 Other accounts; Community 11 (413 accounts) had 10 University, 9 Regional, 55 Thematic, and 339 Other accounts; Community 6 (399 accounts) had 13 University, 25 Regional, 35 Thematic, and 326 Other accounts; Community 12 (391 accounts) had 9 University, 8 Regional, 94 Thematic, and 280 Other accounts; and Community 13 (357 accounts) had 22 University, 2 Regional, 111 Thematic, and 222 Other accounts.
+Community detection identified 16 communities, with sizes ranging from 152 to 622 accounts. The largest communities (350–450 accounts) were analyzed for composition: Community 4 (432 accounts) had 7 University, 7 Regional, 218 Thematic, and 200 Other accounts; Community 11 (413 accounts) had 10 University, 9 Regional, 55 Thematic, and 339 Other accounts; Community 6 (399 accounts) had 13 University, 25 Regional, 35 Thematic, and 326 Other accounts; Community 12 (391 accounts) had 9 University, 8 Regional, 94 Thematic, and 280 Other accounts; and Community 13 (357 accounts) had 22 University, 2 Regional, 111 Thematic, and 222 Other accounts.
 
 
 ### Community Sizes
