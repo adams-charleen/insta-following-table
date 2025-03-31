@@ -18,6 +18,8 @@ The data collection was carried out using the Python script `handles_scrape.py` 
 
 I used the Python script `format_insta_following_table.py` to transform the Instagram following data into an HTML table for easy viewing. The script read data from instagram_following.txt, which contained a list of Instagram accounts and the accounts they follow, formatted as account-following pairs. Each line was parsed by splitting the account name and its following list, cleaning the list by removing brackets and quotes, and storing the data in a dictionary. The script then generated an HTML file with a styled table, including CSS to format the table with borders, alternating row colors, hover effects, and a scrollable column for the following lists. For each account, a row was added to the table with the account name in one column and the list of followed accounts in a scrollable div in the second column. The resulting HTML table was saved as instagram_following_table.html for viewing in a web browser, with a title indicating the data was processed on March 30, 2025: https://adams-charleen.github.io/insta-following-table/instagram_following_table.html
 
+**Note:** Discrepancies exist between the “follows” reported in the basic metrics (instagram_results_table.html) and the data pulled for following accounts (instagram_following_table.html). These inconsistencies are likely due to some accounts being set to private. It is reasonable to hypothesize that a significant number of Harvard students may have made their personal accounts private, while individuals outside the university, particularly in the broader community, may not have. In the subsequent network analysis, personal accounts are likely categorized under “Other.”
+
 
 ### Network Analyses
 
