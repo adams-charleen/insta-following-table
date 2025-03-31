@@ -25,7 +25,122 @@ I performed etwork analyses with the Python script `deeper_network_dive.py` that
 
 ## Results
 
-The top 10 most followed accounts (in-degree centrality) included "harvardundergradpsc" (0.0056), "harvardoop" (0.0054), and "palestinianyouthmovement" (0.0054), while "jvpboston" (0.1892) and "hiddenpalestine" (0.1536) had the highest out-degree centrality, indicating they follow the most accounts. "jvpboston" also led in betweenness centrality (0.0010), marking it as a key connector, followed by "harvardoop" (0.0009). For closeness centrality, "harvardundergradpsc" (0.0058) and "palestinianyouthmovement" (0.0057) were the most central, and "harvardundergradpsc" had the highest PageRank (0.00027), indicating strong influence, followed by "harvardoop" (0.00027). Community detection identified 16 communities, with sizes ranging from 152 to 622 accounts, as shown in the "Distribution of Community Sizes" histogram. The largest communities (350–450 accounts) were analyzed for composition: Community 4 (432 accounts) had 7 University, 7 Regional, 218 Thematic, and 200 Other accounts; Community 11 (413 accounts) had 10 University, 9 Regional, 55 Thematic, and 339 Other accounts; Community 6 (399 accounts) had 13 University, 25 Regional, 35 Thematic, and 326 Other accounts; Community 12 (391 accounts) had 9 University, 8 Regional, 94 Thematic, and 280 Other accounts; and Community 13 (357 accounts) had 22 University, 2 Regional, 111 Thematic, and 222 Other accounts.
+The top 10 most followed accounts (in-degree centrality) included "harvardundergradpsc" (0.0056), "harvardoop" (0.0054), and "palestinianyouthmovement" (0.0054), while "jvpboston" (0.1892) and "hiddenpalestine" (0.1536) had the highest out-degree centrality, indicating they follow the most accounts. "jvpboston" also led in betweenness centrality (0.0010), marking it as a key connector, followed by "harvardoop" (0.0009). For closeness centrality, "harvardundergradpsc" (0.0058) and "palestinianyouthmovement" (0.0057) were the most central, and "harvardundergradpsc" had the highest PageRank (0.00027), indicating strong influence, followed by "harvardoop" (0.00027). 
+
+
+### Top 10 Most Followed Accounts (In-Degree Centrality)
+
+| Account                        | In-Degree Centrality |
+|--------------------------------|----------------------|
+| harvardundergradpsc            | 0.005575             |
+| harvardoop                      | 0.005383             |
+| palestinianyouthmovement        | 0.005383             |
+| harvardgs4p                     | 0.004614             |
+| lsfpnational                    | 0.004229             |
+| bdsboston                       | 0.003845             |
+| jvpboston                       | 0.003845             |
+| bu_sjp                          | 0.003845             |
+| harvj4p                         | 0.003652             |
+| harvafro                        | 0.003652             |
+
+
+### Top 10 Accounts Following the Most (Out-Degree Centrality)
+
+| Account                          | Out-Degree Centrality |
+|----------------------------------|-----------------------|
+| jvpboston                        | 0.189158              |
+| hiddenpalestine                  | 0.153595              |
+| nationalsjp                      | 0.131296              |
+| healthcareworkersforpalestine    | 0.120915              |
+| mitg4p                            | 0.100538              |
+| harvardundergradpsc              | 0.094963              |
+| m1t_caa                          | 0.091696              |
+| pal_legal                        | 0.083622              |
+| harvj4p                          | 0.080161              |
+| harvardoop                        | 0.071126              |
+
+### Top 10 Key Connectors (Betweenness Centrality)
+
+| Account                        | Betweenness Centrality |
+|--------------------------------|------------------------|
+| jvpboston                      | 0.000999               |
+| harvardoop                      | 0.000878               |
+| harvardundergradpsc            | 0.000862               |
+| hiddenpalestine                 | 0.000829               |
+| harvardgs4p                     | 0.000745               |
+| healthcareworkersforpalestine  | 0.000654               |
+| nationalsjp                     | 0.000650               |
+| pal_legal                       | 0.000472               |
+| mitg4p                          | 0.000469               |
+| m1t_caa                         | 0.000404               |
+
+
+### Top 10 Accounts by Closeness Centrality
+
+| Account                        | Closeness Centrality |
+|--------------------------------|----------------------|
+| harvardundergradpsc            | 0.005794             |
+| palestinianyouthmovement        | 0.005721             |
+| harvardoop                      | 0.005662             |
+| harvardgs4p                     | 0.005190             |
+| lsfpnational                    | 0.005061             |
+| bu_sjp                          | 0.004873             |
+| bdsboston                       | 0.004791             |
+| jvpboston                       | 0.004791             |
+| harvj4p                         | 0.004701             |
+| mondoweiss                      | 0.004699             |
+
+
+### Top 10 Accounts by PageRank
+
+| Account                        | PageRank  |
+|--------------------------------|-----------|
+| harvardundergradpsc            | 0.000272  |
+| harvardoop                      | 0.000269  |
+| harvardgs4p                     | 0.000259  |
+| palestinianyouthmovement        | 0.000248  |
+| harvj4p                         | 0.000247  |
+| lsfpnational                    | 0.000231  |
+| harvafro                        | 0.000224  |
+| right2edu                       | 0.000223  |
+| bostonpsl                       | 0.000220  |
+| nouraerakat                     | 0.000218  |
+
+
+Community detection identified 16 communities, with sizes ranging from 152 to 622 accounts, as shown in the "Distribution of Community Sizes" histogram. The largest communities (350–450 accounts) were analyzed for composition: Community 4 (432 accounts) had 7 University, 7 Regional, 218 Thematic, and 200 Other accounts; Community 11 (413 accounts) had 10 University, 9 Regional, 55 Thematic, and 339 Other accounts; Community 6 (399 accounts) had 13 University, 25 Regional, 35 Thematic, and 326 Other accounts; Community 12 (391 accounts) had 9 University, 8 Regional, 94 Thematic, and 280 Other accounts; and Community 13 (357 accounts) had 22 University, 2 Regional, 111 Thematic, and 222 Other accounts.
+
+
+### Community Sizes
+
+| Community ID | Size |
+|--------------|------|
+| 2            | 622  |
+| 15           | 578  |
+| 5            | 456  |
+| 4            | 432  |
+| 11           | 413  |
+| 6            | 399  |
+| 12           | 391  |
+| 13           | 357  |
+| 7            | 241  |
+| 8            | 230  |
+| 3            | 227  |
+| 14           | 194  |
+| 1            | 187  |
+| 9            | 164  |
+| 0            | 160  |
+| 10           | 152  |
+
+### Composition of Largest Communities
+
+| Community ID | Size | University | Regional | Thematic | Other |
+|--------------|------|------------|----------|----------|-------|
+| 4            | 432  | 7          | 7        | 218      | 200   |
+| 11           | 413  | 10         | 9        | 55       | 339   |
+| 6            | 399  | 13         | 25       | 35       | 326   |
+| 12           | 391  | 9          | 8        | 94       | 280   |
+| 13           | 357  | 22         | 2        | 111      | 222   |
+
 
 ## Conclusions and Interpretations 
 
